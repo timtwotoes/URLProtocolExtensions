@@ -2,7 +2,7 @@
 
 Work with `URLRequest` instead of `NSMutableURLRequest` when using `URLProtocol` `setProperty` and `removeProperty` class methods.
 
-It seems like this API has some technical debt and haven't been updated since 2016 according to the Swift Core team's (repository)[https://github.com/apple/swift-corelibs-foundation/issues/4324].
+It seems like this API has some technical debt and haven't been updated since 2016 according to the Swift Core team's [repository](https://github.com/apple/swift-corelibs-foundation/issues/4324).
 While this implementation isn't perfect, as is noted in the Swift Core teams issue, it does make it infinitly easier to work with the API.
 
 ## Usage
